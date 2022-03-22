@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/DevShehabIbrahem/socail-Media/static/css/main.94b92c6f.css",
+    "main.js": "/DevShehabIbrahem/socail-Media/static/js/main.1fcb8d2a.js",
+    "static/media/share.mp4": "/DevShehabIbrahem/socail-Media/static/media/share.f758eefc9ea32c312130.mp4",
+    "index.html": "/DevShehabIbrahem/socail-Media/index.html",
+    "main.94b92c6f.css.map": "/DevShehabIbrahem/socail-Media/static/css/main.94b92c6f.css.map",
+    "main.1fcb8d2a.js.map": "/DevShehabIbrahem/socail-Media/static/js/main.1fcb8d2a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94b92c6f.css",
+    "static/js/main.1fcb8d2a.js"
+  ]
+}
