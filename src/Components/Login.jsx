@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import GoogleLogin from "react-google-login";
 import { useNavigate } from "react-router-dom";
 import { FcGoogle } from "react-icons/fc";
@@ -9,7 +9,6 @@ import logowhite from "../Assets/logowhite.png";
 import { fetchuser } from "../utility/fetchUser";
 
 const Login = () => {
-  const [value, setValue] = useState(false);
   const navigate = useNavigate();
   const user = fetchuser();
 
@@ -21,8 +20,8 @@ const Login = () => {
     const doc = {
       _id: googleId,
       _type: "user",
-      userName: user?.name,
-      image: user?.imageUrl,
+      userName: user && name,
+      image: imageUrl,
     };
     client.createIfNotExists(doc).then(() => {
       navigate("/", { replace: true });
